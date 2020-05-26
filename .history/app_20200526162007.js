@@ -87,7 +87,7 @@ function gameOver(won, msg) {
 
 // Get winning num
 function getRandomNum(min, max) {
-  return Math.floor(Math.random() * (max - min + 1) + min);
+  console.log(Math.floor(Math.random() * (max - min + 1) + min));
 }
 
 function setMessage(msg, color) {
